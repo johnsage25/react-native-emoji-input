@@ -117,3 +117,4 @@ We can use that to show only emojis which are part of `Unicode 6.0` or `Unicode 
 	/>
 ```
 This will render only emojis from Unicode 6.0 and Unicode 6.1 in input.# react-native-emoji-input
+# react-native-emoji-input
