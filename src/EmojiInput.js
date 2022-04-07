@@ -519,8 +519,8 @@ class EmojiInput extends React.PureComponent {
                     </View>
                 )}
                 <RecyclerListView
-                    style={{ flex: 1 }}
-
+                    style={{ flex: 1, }}
+                    forceNonDeterministicRendering={true}
                     renderAheadOffset={renderAheadOffset}
                     layoutProvider={this._layoutProvider}
                     dataProvider={this.state.dataProvider}
